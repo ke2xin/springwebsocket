@@ -12,7 +12,7 @@ import java.util.concurrent.ConcurrentHashMap;
 @Component
 @ServerEndpoint("/websocket/{name}")
 public class WebSocket {//https://blog.csdn.net/qq78442761/article/details/103102791/
-    //与某个客户端连接对话，通过此对客户端发送消息
+    //与某个客户端连接对话，通过此对客户端发送消息  555555
     private Session session;
     //存放所有连接的客户端
     private static ConcurrentHashMap<String, WebSocket> webSocketConcurrentHashMap = new ConcurrentHashMap<>();
